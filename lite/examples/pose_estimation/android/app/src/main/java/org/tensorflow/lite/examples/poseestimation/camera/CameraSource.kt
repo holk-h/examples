@@ -225,7 +225,6 @@ class CameraSource(
                 }
             }
         }
-        
         frameProcessedInOneSecondInterval++
         if (frameProcessedInOneSecondInterval == 1) {
             // send fps to view
